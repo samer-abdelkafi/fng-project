@@ -5,7 +5,7 @@ var uglify = require('gulp-uglify');
 var minify = require('gulp-minify-css')
 var mainBowerFiles = require('main-bower-files');
 var inject = require('gulp-inject');
-var runSequence = require('gulp-run-sequence');
+var runSequence = require('run-sequence');
 var gzip = require('gulp-gzip');
 var clone = require('gulp-clone');
 
